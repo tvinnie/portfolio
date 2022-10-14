@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import {Link} from 'react-router-dom';
+import './assets/css/main.css';
 
 class PageWrapper extends Component{
     render(){
@@ -8,7 +9,7 @@ class PageWrapper extends Component{
                 
                 <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
                     <div className="container">
-                        <Link className="navbar-brand" to="/"><img src="assets/img/navbar-logo.svg" alt="..." /></Link>
+                        <Link className="navbar-brand" to="/"><img src="assets/img/logominey.png" className="sitelogo" alt="..." /></Link>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                             Menu
                             <i className="fas fa-bars ms-1"></i>
