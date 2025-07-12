@@ -86,7 +86,7 @@ const projects = [
         technologies: ["Wordpress", "Integration", "SQL", "JS", "PHP"],
         category: "Design | Development | Integration | Analytics | Suppport",
         duration: "2 months",
-        team: "3 developers",
+        team: "2 developers",
         liveUrl: "#",
         // githubUrl: "#",
         // stats: { bookings: "30K+", destinations: "200+", satisfaction: "4.7/5" }
