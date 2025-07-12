@@ -2,87 +2,120 @@
 const projects = [
     {
         id: 1,
-        title: "TechCorp Enterprise Platform",
-        description: "Complete redesign of enterprise dashboard with advanced analytics and user management systems.",
-        image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
-        technologies: ["React", "TypeScript", "Tailwind CSS", "D3.js", "Node.js"],
-        category: "Enterprise Software",
-        year: "2024",
+        title: "Childfund Kenya ",
+        description: "Spearheaded the website redesign with a strong focus on modern design principles, responsive development, and the integration of advanced analytics for improved user insights.",
+        image: "/home/kremlin/Music/lab/portfolio/assets/img/childfund_kenya.jpg",
+        technologies: ["Wordpress", "Pods","ACF", "SQL", "JS", "PHP"],
+        category: "Design | Development | Analytics",
         duration: "6 months",
-        team: "5 developers",
-        liveUrl: "#",
-        githubUrl: "#",
-        stats: { users: "50K+", performance: "98%", satisfaction: "4.9/5" }
+        team: "4 developers",
+        liveUrl: "https://childfundkenya.org/",
+        // githubUrl: "#",
+        // stats: { users: "50K+", performance: "98%", satisfaction: "4.9/5" }
     },
     {
         id: 2,
-        title: "FinanceFlow Mobile App",
-        description: "Revolutionary fintech mobile application with AI-powered investment recommendations and real-time market analysis.",
-        image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&h=600&fit=crop",
-        technologies: ["React Native", "Redux", "Firebase", "Python", "TensorFlow"],
-        category: "FinTech Mobile",
-        year: "2024",
-        duration: "8 months",
-        team: "8 developers",
-        liveUrl: "#",
-        githubUrl: "#",
-        stats: { downloads: "100K+", rating: "4.8/5", transactions: "$2M+" }
+        title: "Kimisitu DT Sacco ",
+        description: "Engineered backend architecture improvements, implemented advanced analytics tools, and integrated key external platforms to enhance data flow and system interoperability.",
+        image: "/home/kremlin/Music/lab/portfolio/assets/img/kimisitu_sacco.jpg",
+        technologies: ["Wordpress", "Pods","ACF", "SQL", "JS", "PHP"],
+        category: "Backend Development | Analytics | Integration",
+        duration: "7 months",
+        team: "4 developers",
+        liveUrl: "https://www.kimisitusacco.or.ke/",
+        // githubUrl: "#",
+        // stats: { downloads: "100K+", rating: "4.8/5", transactions: "$2M+" }
     },
     {
         id: 3,
-        title: "EcoMarket E-commerce",
-        description: "Sustainable e-commerce platform with carbon footprint tracking and eco-friendly product recommendations.",
-        image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop",
-        technologies: ["Next.js", "Shopify", "Stripe", "MongoDB", "Docker"],
-        category: "E-commerce",
-        year: "2023",
-        duration: "4 months",
-        team: "6 developers",
-        liveUrl: "#",
-        githubUrl: "#",
-        stats: { revenue: "$500K+", conversion: "12.5%", products: "10K+" }
+        title: "Mhasibu DT Sacco Limited ",
+        description: "Spearheaded the website redesign with a strong focus on modern design principles, responsive development, and the integration of advanced analytics for improved user insights.",
+        image: "/home/kremlin/Music/lab/portfolio/assets/img/mhasibu_sacco.jpg",
+        technologies: ["Wordpress", "Integration", "SQL", "JS", "PHP"],
+        category: "Design | Development | Analytics",
+        duration: "7 months",
+        team: "4 developers",
+        liveUrl: "https://www.mhasibusacco.com/",
+        // githubUrl: "#",
+        // stats: { revenue: "$500K+", conversion: "12.5%", products: "10K+" }
     },
     {
         id: 4,
-        title: "MedCare Healthcare Portal",
-        description: "HIPAA-compliant healthcare management system with telemedicine capabilities and patient data analytics.",
-        image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=800&h=600&fit=crop",
-        technologies: ["Vue.js", "Laravel", "MySQL", "WebRTC", "AWS"],
-        category: "Healthcare",
-        year: "2023",
-        duration: "10 months",
-        team: "12 developers",
-        liveUrl: "#",
-        githubUrl: "#",
-        stats: { patients: "25K+", consultations: "100K+", uptime: "99.9%" }
+        title: "H YOUNG & CO (E.A) LTD ",
+        description: "Spearheaded the website redesign with a strong focus on modern design principles, responsive development, and the integration of advanced analytics for improved user insights.",
+        image: "/home/kremlin/Music/lab/portfolio/assets/img/hyoung.jpg",
+        technologies: ["Wordpress", "Integration", "SQL", "JS", "PHP"],
+        category: "Design | Development | Analytics",
+        duration: "7 months",
+        team: "3 developers",
+        liveUrl: "https://hyoung.com/",
+        // githubUrl: "#",
+        // stats: { patients: "25K+", consultations: "100K+", uptime: "99.9%" }
     },
     {
         id: 5,
-        title: "EduLearn Learning Platform",
-        description: "Interactive online learning platform with AI-powered personalized learning paths and real-time collaboration tools.",
-        image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=600&fit=crop",
-        technologies: ["Angular", "Express.js", "PostgreSQL", "Socket.io", "OpenAI"],
-        category: "EdTech",
-        year: "2023",
+        title: "Karen Roses ",
+        description: "Spearheaded the website redesign with a strong focus on modern design principles, responsive development, and the integration of advanced analytics for improved user insights.",
+        image: "/home/kremlin/Music/lab/portfolio/assets/img/karen_roses.jpg",
+        technologies: ["Wordpress", "Integration", "SQL", "JS", "PHP"],
+        category: "Design | Development | Analytics",
         duration: "7 months",
-        team: "9 developers",
-        liveUrl: "#",
-        githubUrl: "#",
-        stats: { students: "75K+", courses: "500+", completion: "89%" }
+        team: "3 developers",
+        liveUrl: "https://www.karenroses.com/",
+        // githubUrl: "#",
+        // stats: { students: "75K+", courses: "500+", completion: "89%" }
     },
     {
         id: 6,
-        title: "TravelVibe Booking Platform",
-        description: "Modern travel booking platform with immersive VR previews and AI-powered trip recommendations.",
-        image: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&h=600&fit=crop",
-        technologies: ["React", "Three.js", "Express", "MongoDB", "Stripe"],
-        category: "Travel & Tourism",
-        year: "2022",
-        duration: "5 months",
-        team: "7 developers",
+        title: "Centon Kenya ",
+        description: "Executed a full website redesign encompassing clean, user-centric design, scalable development, and seamless integration with internal tools and external systems.",
+        image: "/home/kremlin/Music/lab/portfolio/assets/img/centon_kenya.jpg",
+        technologies: ["Wordpress", "Integration", "SQL", "JS", "PHP"],
+        category: "Design | Development | Integration",
+        duration: "7 months",
+        team: "3 developers",
+        liveUrl: "https://www.centon.co.ke/",
+        // githubUrl: "#",
+        // stats: { bookings: "30K+", destinations: "200+", satisfaction: "4.7/5" }
+    },
+        {
+        id: 7,
+        title: "Brandstaun Consulting ",
+        description: "Led the end-to-end redesign of the enterprise website, including UI/UX design, full-stack development, third-party system integration, and ongoing support to ensure performance and reliability.",
+        image: "/home/kremlin/Music/lab/portfolio/assets/img/brandstaun.jpg",
+        technologies: ["Wordpress", "Integration", "SQL", "JS", "PHP"],
+        category: "Design | Development | Integration | Analytics | Suppport",
+        duration: "2 months",
+        team: "3 developers",
         liveUrl: "#",
-        githubUrl: "#",
-        stats: { bookings: "30K+", destinations: "200+", satisfaction: "4.7/5" }
+        // githubUrl: "#",
+        // stats: { bookings: "30K+", destinations: "200+", satisfaction: "4.7/5" }
+    },
+        {
+        id: 8,
+        title: "Adventist University of Africa",
+        description: "Delivered a complete website overhaul from design to deployment, focusing on a refined user interface and responsive front-end development for optimal performance.",
+        image: "/home/kremlin/Music/lab/portfolio/assets/img/aua.jpg",
+        technologies: ["Wordpress", "Integration", "SQL", "JS", "PHP"],
+        category: "Design | Development",
+        duration: "7 months",
+        team: "3 developers",
+        liveUrl: "https://www.aua.ac.ke/",
+        // githubUrl: "#",
+        // stats: { bookings: "30K+", destinations: "200+", satisfaction: "4.7/5" }
+    },
+        {
+        id: 9,
+        title: "Orchidoholics",
+        description: "Reimagined the website with a focus on intuitive design and robust development, including eCommerce capabilities to streamline digital transactions and user engagement.",
+        image: "/home/kremlin/Music/lab/portfolio/assets/img/orchids.jpg",
+        technologies: ["Wordpress", "Integration", "SQL", "JS", "PHP"],
+        category: "Design | Development | Ecommerce",
+        duration: "7 months",
+        team: "3 developers",
+        liveUrl: "https://www.orchidoholics.com/",
+        // githubUrl: "#",
+        // stats: { bookings: "30K+", destinations: "200+", satisfaction: "4.7/5" }
     }
 ];
 
@@ -122,39 +155,32 @@ function renderProjects() {
             <div class="project-image">
                 <img src="${project.image}" alt="${project.title}" loading="lazy">
                 <div class="project-overlay">
+                <a href="${project.liveUrl}" target="_blank">
                     <button class="project-btn">
                         <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="m18 13 6-6-6-6"/>
                             <path d="m6 7 6 6-6 6"/>
                             <path d="m6 7 6-6 6 6"/>
                         </svg>
-                        Live
+                         Live
                     </button>
-                    <button class="project-btn">
-                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="m22 13.29-3.33-10a1.42 1.42 0 0 0-1.32-1 1.42 1.42 0 0 0-1.32 1l-3.33 10a2 2 0 0 0 1.9 2.7h5.4a2 2 0 0 0 1.9-2.7z"/>
-                            <path d="m6.89 6.89 1.4-1.4"/>
-                            <path d="M2.89 13.89l1.4-1.4"/>
-                            <path d="m6.89 17.11-1.4 1.4"/>
-                            <path d="M2.89 10.11l1.4 1.4"/>
-                        </svg>
-                        Code
-                    </button>
+                    </a>
+
                 </div>
             </div>
             <div class="project-content">
                 <div class="project-header">
                     <div class="project-category">${project.category}</div>
-                    <div class="project-year">${project.year}</div>
+                  
                 </div>
                 <h3 class="project-title">${project.title}</h3>
                 <p class="project-description">${project.description}</p>
                 <div class="project-technologies">
-                    ${project.technologies.slice(0, 3).map(tech => 
+                    ${project.technologies.slice(0, 5).map(tech => 
                         `<span class="tech-badge">${tech}</span>`
                     ).join('')}
-                    ${project.technologies.length > 3 ? 
-                        `<span class="tech-badge">+${project.technologies.length - 3}</span>` : ''
+                    ${project.technologies.length > 5 ? 
+                        `<span class="tech-badge">+${project.technologies.length - 5}</span>` : ''
                     }
                 </div>
 
