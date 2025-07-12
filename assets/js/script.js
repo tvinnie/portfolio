@@ -4,7 +4,7 @@ const projects = [
         id: 1,
         title: "Childfund Kenya ",
         description: "Spearheaded the website redesign with a strong focus on modern design principles, responsive development, and the integration of advanced analytics for improved user insights.",
-        image: "/home/kremlin/Music/lab/portfolio/assets/img/childfund_kenya.jpg",
+        image: "/assets/img/childfund_kenya.jpg",
         technologies: ["Wordpress", "Pods","ACF", "SQL", "JS", "PHP"],
         category: "Design | Development | Analytics",
         duration: "6 months",
